@@ -11,8 +11,8 @@ export default function Home() {
     const urlParams = new URLSearchParams(window.location.search);
 
     setMessage(urlParams.get('messagem'))
-    setNome(urlParams.get('email'))
-    setEmail(urlParams.get('nome'))
+    setNome(urlParams.get('nome'))
+    setEmail(urlParams.get('email'))
   }, [])
 
   return (

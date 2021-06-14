@@ -215,22 +215,26 @@ body {
     background-color: rgb(255, 255, 255);
     color: #A366FF;
     border: none;
+    transition: 0.4s background-color;
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.836);
       color: #A366FF;
       border: none;
+      transition: 0.4s background-color;
     }
 
     &--primary-color {
       background-color: #A366FF;
       color: #ffffff;
       border: none;
+      transition: 0.4s background-color;
 
       &:hover {
         background-color: #854cdb;
         color: #ffffff;
         border: none;
+        transition: 0.4s background-color;
       }
     }
   }
@@ -239,21 +243,25 @@ body {
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #FFFFFF;
+    transition: 0.4s background-color;
 
     &:hover {
       background-color: #FFFFFF;
       color: #A366FF;
       border: 2px solid #FFFFFF;
+      transition: 0.4s background-color;
     }
 
     &--primary-color {
       color: #A366FF;
       border: 2px solid #A366FF;
+      transition: 0.4s background-color;
 
       &:hover {
         background-color: #A366FF;
         color: #ffffff;
         border: 2px solid #A366FF;
+        transition: 0.4s background-color;
       }
     }
   }
@@ -263,12 +271,14 @@ body {
     color: #ffffff;
     border: none;
     border: 2px solid transparent;
+    transition: 0.4s background-color;
     
     &:hover {
       background-color: transparent;
       color: #ffffff;
       border: none;
       border: 2px solid #ffffff;
+      transition: 0.4s background-color;
     }
   }
 }
